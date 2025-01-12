@@ -39,9 +39,3 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`server running ${PORT}`.bgGreen.white);
 });
-
-//now to -> cd server -> node server.js enter
-// you can see get request on broser localhost:8080...
-//if message updated need refresh in broser
-// ..need nodemon to autorefresh browser
-// mongodb- sgherade111dKpi72pJBEojOWw
